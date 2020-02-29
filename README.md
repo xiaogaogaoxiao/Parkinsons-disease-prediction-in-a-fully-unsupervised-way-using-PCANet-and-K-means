@@ -1,0 +1,2 @@
+# Parkinson-s-disease-prediction-in-a-fully-unsupervised-way-using-PCANet-and-K-means
+a deep learning model to predict Parkinson’s disease using MRI in a fully unsupervised way (without making use of any class label). MRI images are pre-processed using BET Tool. PCANet was employed for Feature extraction, and the extracted features are classified using unsupervised K-means clustering algorithm. The PCANet learns the filters by doing PCA (Principal Component Analysis) on the input data, rather than doing tedious Gradient descent optimization.
